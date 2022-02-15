@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+<body>
+
+    <div class="column2">
+    <div class="card">
+    <h1>#$pok_id $pok_nombre</h1>
+        <img src="$pok_img" width="150" height="150">
+    <div class="container">
+        <h4>$pok_preEtapa</h4>
+        <h2>Estad&iacute;sticas</h2>
+        <table>
+            <tr>
+               <td><h5>HP: $pok_hp</h5></td>
+                <td><h5>Ataque: $pok_atk</h5></td>
+                <td><h5>Defensa: $pok_def</h5></td>
+                <td><h5>Ataque Especial: $pok_psa</h5></td>
+                <td><h5>Defensa Especial: $pok_psd</h5></td>
+                <td><h5>Velocidad: $pok_vel</h5></td>
+            </tr>
+        </table>
+        <h3><b>Tipo</b></h3> 
+            $pok_tipos $pok_tipo_esp
+
+        <p>$pok_comentario</p>
+        
+    <h3>Super efectivo contra:</h3>
+        $tipos_sec
+    <h3>D&eacute;bil contra:</h3>
+        <!-- <span class="label fighting">Lucha</span> -->
+        $tipos_dc
+    <h3>Resistente contra:</h3>
+        $tipos_rc 
+    <h3>Poco Eficaz contra:</h3>
+        <!-- <span class="label rock">Roca</span> -->
+        <!-- <span class="label steel">Acero</span> -->
+        $tipos_pec
+    <h3>Inmune contra:</h3>
+        <!-- <span class="label ghost">Fantasma</span> -->
+        $tipos_inmune
+    <h3>Ineficaz contra:</h3>
+        <!-- <span class="label ghost">Fantasma</span> -->
+        $tipos_ineficaz
+    </div>
+    </div>
+
+</body>
+</html>
