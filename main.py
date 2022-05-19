@@ -39,7 +39,7 @@ tipos_sec = genera_span(procesa_tipos(lista_tipos,"double_damage_to"))
 tipos_dc = genera_span(procesa_tipos(lista_tipos,"double_damage_from"))
 
 # 3. generar lista resistente contra ==> half_damage_from
-tipos_rc = genera_span(procesa_tipos(lista_tipos,"double_damage_from"))
+tipos_rc = genera_span(procesa_tipos(lista_tipos,"half_damage_from"))
 
 # 4. generar lista poco eficaz contra ==> half_damage_to
 tipos_pec = genera_span(procesa_tipos(lista_tipos,"half_damage_to"))
